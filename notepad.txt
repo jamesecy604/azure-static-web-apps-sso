@@ -1,0 +1,22 @@
+az group create -g rg-swa-sso -l northeurope
+
+az ad sp create-for-rbac --name "sp-swa-sso" --role Owner --scopes /subscriptions/{}/resourceGroups/rg-swa-sso --sdk-auth
+
+
+
+
+
+
+
+az ad app create --display-name aadapp-swa-james-sso  --identifier-uris api://stapp-swa-james-sso  --web-redirect-uris 'https://gray-cliff-0b3d27803.4.azurestaticapps.net/.auth/login/aad/callback' 
+
+
+
+
+
+
+test1@sbox6864gmail.onmicrosoft.com
+
+
+
+
