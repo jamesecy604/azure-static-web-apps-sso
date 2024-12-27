@@ -17,6 +17,8 @@ az ad app create --display-name aadapp-swa-james-sso  --identifier-uris api://st
 
 test1@sbox6864gmail.onmicrosoft.com
 
+blog link: https://www.rickroche.com/2022/03/single-sign-on-azure-static-web-apps-and-azure-active-directory/
+
 
 
 
