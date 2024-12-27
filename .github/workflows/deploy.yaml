@@ -43,7 +43,7 @@ jobs:
               --parameters \
                   appName='${{ env.APP_NAME }}' \
                   location='${{ env.LOCATION }}' \
-                  repositoryUrl='https://github.com/rick-roche/azure-static-web-apps-sso' \
+                  repositoryUrl='https://github.com/jamesecy604/azure-static-web-apps-sso.git' \
                   repositoryToken='${{ secrets.WORKFLOW_TOKEN }}' \
                   tags='${{ env.RESOURCE_TAGS }}'
 
